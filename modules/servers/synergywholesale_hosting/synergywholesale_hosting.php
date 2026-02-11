@@ -9,7 +9,8 @@
 
 use WHMCS\Database\Capsule as DB;
 
-define('API_ENDPOINT', 'https://{{API}}');
+//define('API_ENDPOINT', 'https://{{API}}');
+define('API_ENDPOINT', 'https://api.synergywholesale.com:443/server.php');
 define('MODULE_VERSION', '{{VERSION}}');
 
 const SYNERGYWHOLESALE_CUSTOM_HOSTING_IDENTIFIER = 'Custom Hosting';
